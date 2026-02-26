@@ -22,8 +22,8 @@
     if (!localStorage.getItem(THEME_KEY)) applyTheme(e.matches ? 'dark' : 'light');
   });
 
-  // Dev/prod app link base
-  const APP_BASE = location.hostname === 'localhost' ? 'http://localhost:3000' : '/app';
+  // Dev/prod app link base (hash routing)
+  const APP_BASE = location.hostname === 'localhost' ? 'http://localhost:3000/#' : '/app/#';
 
   // Rewrite data-app-link hrefs
   document.querySelectorAll('[data-app-link]').forEach(el => {

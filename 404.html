@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    // SPA redirect for GitHub Pages
+    // When GitHub Pages returns 404, check if it's a Flutter app route
+    // and redirect to /app/ preserving the path in sessionStorage
+    var path = window.location.pathname;
+    if (path.startsWith('/app/')) {
+      sessionStorage.setItem('spa-redirect', path + window.location.search);
+      window.location.replace('/app/');
+    } else {
+      // Not an app route — redirect to landing page
+      window.location.replace('/');
+    }
+  </script>
+</head>
+<body></body>
+</html>

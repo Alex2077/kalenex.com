@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta.title">Kalenex — Smart Calendar for Your Business</title>
+  <meta name="description" data-i18n-attr="content:meta.description" content="Kalenex is a smart calendar and event management platform for businesses. Manage events, contacts, and scheduling for sport clubs, clinics, and more.">
+  <meta name="theme-color" content="#92D050">
+  <link rel="icon" type="image/svg+xml" href="images/kalenex-logo.svg">
+  <link rel="alternate" hreflang="en" href="https://www.kalenex.com/">
+  <link rel="alternate" hreflang="es" href="https://www.kalenex.com/?lang=es">
+  <link rel="alternate" hreflang="x-default" href="https://www.kalenex.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    // Prevent flash of wrong theme
+    (function(){var t=localStorage.getItem('kalenex-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})();
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="/" class="header__logo">
+        <img src="images/kalenex-logo.svg" alt="Kalenex logo" width="36" height="36">
+        <span>Kalenex</span>
+      </a>
+      <nav class="header__nav" id="nav">
+        <a href="#features" class="header__link" data-i18n="nav.features">Features</a>
+        <a href="#pricing" class="header__link" data-i18n="nav.pricing">Pricing</a>
+      </nav>
+      <div class="header__actions">
+        <button class="toolbar-btn theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="lang-switcher__btn" id="langBtn" aria-label="Change language">
+            <svg class="lang-switcher__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span id="langCurrent">EN</span>
+          </button>
+          <ul class="lang-switcher__menu" id="langMenu"></ul>
+        </div>
+        <a href="/app/login" class="btn btn--ghost" data-app-link="login" data-i18n="nav.login">Log In</a>
+        <a href="/app/register" class="btn btn--primary" data-app-link="register" data-i18n="nav.getStarted">Get Started</a>
+      </div>
+      <button class="header__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <h1 class="hero__title" data-i18n-html="hero.title">Your Calendar, <strong>Supercharged</strong></h1>
+      <p class="hero__subtitle" data-i18n="hero.subtitle">Smart event management for your business. Organize your schedule, manage clients, and grow — all in one place.</p>
+      <div class="hero__actions">
+        <a href="/app/register" class="btn btn--primary btn--lg" data-app-link="register" data-i18n="hero.cta">Get Started Free</a>
+        <a href="#features" class="btn btn--outline btn--lg" data-i18n="hero.secondary">See Features</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section__title" data-i18n="features.title">Everything you need to manage your schedule</h2>
+      <p class="section__subtitle" data-i18n="features.subtitle">Powerful tools designed for any business that runs on appointments.</p>
+      <div class="features__grid">
+        <div class="feature-card fade-in">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <h3 class="feature-card__title" data-i18n="features.calendar.title">Smart Calendar</h3>
+          <p class="feature-card__desc" data-i18n="features.calendar.desc">Create and manage events with day, week, and month views. Stay on top of your schedule effortlessly.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="feature-card__title" data-i18n="features.contacts.title">Contact Management</h3>
+          <p class="feature-card__desc" data-i18n="features.contacts.desc">Organize clients, import and categorize contacts. Keep your professional network at your fingertips.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          </div>
+          <h3 class="feature-card__title" data-i18n="features.notifications.title">Real-time Notifications</h3>
+          <p class="feature-card__desc" data-i18n="features.notifications.desc">Instant push notifications via WebSocket. Never miss an update from your clients or team.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+          </div>
+          <h3 class="feature-card__title" data-i18n="features.recurrence.title">Recurring Events</h3>
+          <p class="feature-card__desc" data-i18n="features.recurrence.desc">Complex recurrence patterns — daily, weekly, monthly. Perfect for repeating classes and sessions.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h3 class="feature-card__title" data-i18n="features.email.title">Email Invitations</h3>
+          <p class="feature-card__desc" data-i18n="features.email.desc">Send event invitations directly from the platform. Make it easy for clients to confirm attendance.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <div class="feature-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L9.09 8.26 2 9.27l5 4.87L5.82 21 12 17.77 18.18 21 17 14.14l5-4.87-7.09-1.01z"/></svg>
+          </div>
+          <h3 class="feature-card__title" data-i18n="features.ai.title">AI Assistant</h3>
+          <p class="feature-card__desc" data-i18n="features.ai.desc">Intelligent scheduling suggestions powered by AI. Let Kalenex optimize your calendar automatically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <h2 class="section__title" data-i18n="pricing.title">Simple, transparent pricing</h2>
+      <p class="section__subtitle" data-i18n="pricing.subtitle">Start free. Upgrade when you're ready.</p>
+      <div class="pricing__grid">
+        <div class="pricing-card fade-in">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__name" data-i18n="pricing.free.name">Free</h3>
+            <div class="pricing-card__price"><span class="pricing-card__amount" data-i18n="pricing.free.price">$0</span><span class="pricing-card__period" data-i18n="pricing.free.period">/month</span></div>
+          </div>
+          <ul class="pricing-card__features">
+            <li data-i18n="pricing.free.f1">5 events per month</li>
+            <li data-i18n="pricing.free.f2">15 contacts per month</li>
+            <li data-i18n="pricing.free.f3">Basic calendar views</li>
+            <li data-i18n="pricing.free.f4">Push notifications</li>
+          </ul>
+          <a href="/app/register" class="btn btn--outline btn--block" data-app-link="register" data-i18n="pricing.free.cta">Get Started</a>
+        </div>
+        <div class="pricing-card pricing-card--featured fade-in">
+          <div class="pricing-card__badge" data-i18n="pricing.pro.badge">Most Popular</div>
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__name" data-i18n="pricing.pro.name">Pro</h3>
+            <div class="pricing-card__price"><span class="pricing-card__amount" data-i18n="pricing.pro.price">$9.99</span><span class="pricing-card__period" data-i18n="pricing.pro.period">/month</span></div>
+          </div>
+          <ul class="pricing-card__features">
+            <li data-i18n="pricing.pro.f1">Unlimited events</li>
+            <li data-i18n="pricing.pro.f2">Unlimited contacts</li>
+            <li data-i18n="pricing.pro.f3">Recurring events</li>
+            <li data-i18n="pricing.pro.f4">Email invitations</li>
+          </ul>
+          <a href="/app/register" class="btn btn--primary btn--block" data-app-link="register" data-i18n="pricing.pro.cta">Get Started</a>
+        </div>
+        <div class="pricing-card fade-in">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__name" data-i18n="pricing.elite.name">Elite</h3>
+            <div class="pricing-card__price"><span class="pricing-card__amount" data-i18n="pricing.elite.price">$19.99</span><span class="pricing-card__period" data-i18n="pricing.elite.period">/month</span></div>
+          </div>
+          <ul class="pricing-card__features">
+            <li data-i18n="pricing.elite.f1">Everything in Pro</li>
+            <li data-i18n="pricing.elite.f2">AI Assistant</li>
+            <li data-i18n="pricing.elite.f3">Priority support</li>
+          </ul>
+          <a href="/app/register" class="btn btn--outline btn--block" data-app-link="register" data-i18n="pricing.elite.cta">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta__inner">
+      <h2 class="cta__title" data-i18n="cta.title">Ready to transform your scheduling?</h2>
+      <p class="cta__subtitle" data-i18n="cta.subtitle">Join thousands of businesses that trust Kalenex to manage their calendar.</p>
+      <a href="/app/register" class="btn btn--primary btn--lg" data-app-link="register" data-i18n="cta.button">Get Started Free</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p data-i18n="footer.copyright">&copy; 2026 Kalenex. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

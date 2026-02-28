@@ -42,11 +42,26 @@
   const nav = document.querySelector('.header__nav');
   const actions = document.querySelector('.header__actions');
 
+  function updateMobileNavHeight() {
+    // Measure the nav panel so actions sits directly below it
+    if (nav.classList.contains('open')) {
+      const navH = nav.getBoundingClientRect().height;
+      document.documentElement.style.setProperty('--mobile-nav-h', navH + 'px');
+    }
+  }
+
   hamburger.addEventListener('click', () => {
     const isOpen = nav.classList.toggle('open');
     actions.classList.toggle('open', isOpen);
     hamburger.classList.toggle('open', isOpen);
+    if (isOpen) {
+      // Wait one frame so the nav is rendered before measuring
+      requestAnimationFrame(updateMobileNavHeight);
+    }
   });
+
+  // Re-measure if window resizes while menu is open
+  window.addEventListener('resize', updateMobileNavHeight, { passive: true });
 
   // Close menu on nav link click
   document.querySelectorAll('.header__link').forEach(link => {

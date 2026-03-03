@@ -19,4 +19,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://www.kalenex.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kalenex.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.kalenex.com/privacy.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kalenex.com/privacy.html"/>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.kalenex.com/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.kalenex.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.kalenex.com/terms.html?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.kalenex.com/terms.html"/>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>

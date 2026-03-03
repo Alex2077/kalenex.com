@@ -58,5 +58,166 @@
   "cta.subtitle": "Join thousands of businesses that trust Kalenex to manage their calendar.",
   "cta.button": "Get Started Free",
 
-  "footer.copyright": "© 2026 Kalenex. All rights reserved."
+  "footer.copyright": "© 2026 Kalenex. All rights reserved.",
+  "footer.privacy": "Privacy Policy",
+  "footer.terms": "Terms of Use",
+
+  "privacy.meta.title": "Privacy Policy — Kalenex",
+  "privacy.meta.description": "Kalenex privacy policy. Learn how we collect, use, and protect your personal data.",
+  "privacy.title": "Privacy Policy",
+  "privacy.lastUpdated": "Last updated: March 2, 2026",
+  "privacy.intro": "Kalenex (\"we\", \"us\", or \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our calendar and event management platform, including our website, web application, and mobile application (collectively, the \"Service\").",
+
+  "privacy.s1.title": "1. Information We Collect",
+  "privacy.s1.sub1.title": "1.1 Account Information",
+  "privacy.s1.sub1.text": "When you create an account, we collect your name, email address, and password. If you sign in with Google OAuth, we receive your name, email address, and profile picture from Google. We do not store your Google password.",
+  "privacy.s1.sub2.title": "1.2 Calendar and Event Data",
+  "privacy.s1.sub2.text": "We store the events you create, including titles, descriptions, dates, times, locations, recurrence rules, and any participants you add. This data is necessary to provide the core scheduling functionality of the Service.",
+  "privacy.s1.sub3.title": "1.3 Contact Information",
+  "privacy.s1.sub3.text": "When you add contacts to Kalenex, we store their names, email addresses, phone numbers, and any notes or categories you assign. This data is used to help you manage participants and send event invitations.",
+  "privacy.s1.sub4.title": "1.4 Payment Information",
+  "privacy.s1.sub4.text": "Subscription payments are processed by Stripe. We do not store your credit card number or full payment details on our servers. Stripe may collect and store payment information in accordance with their own privacy policy. We only store your subscription plan, status, and Stripe customer ID.",
+  "privacy.s1.sub5.title": "1.5 Usage Data",
+  "privacy.s1.sub5.text": "We may collect information about how you interact with the Service, such as pages visited, features used, and the dates and times of your activity. This helps us improve the platform.",
+
+  "privacy.s2.title": "2. How We Use Your Information",
+  "privacy.s2.intro": "We use the information we collect to:",
+  "privacy.s2.item1": "Provide, operate, and maintain the Service, including event scheduling, contact management, and real-time notifications",
+  "privacy.s2.item2": "Authenticate your identity and manage your account",
+  "privacy.s2.item3": "Process subscription payments and manage your billing through Stripe",
+  "privacy.s2.item4": "Send event invitations and notifications by email on your behalf",
+  "privacy.s2.item5": "Deliver real-time notifications about event updates, participant changes, and schedule modifications",
+  "privacy.s2.item6": "Provide AI-powered scheduling suggestions (Elite plan only), using your calendar data processed locally",
+  "privacy.s2.item7": "Improve and develop new features for the Service",
+  "privacy.s2.item8": "Respond to your inquiries and provide customer support",
+
+  "privacy.s3.title": "3. AI Assistant and Data Processing",
+  "privacy.s3.text": "Our AI Assistant feature (available on the Elite plan) uses a locally hosted language model to provide scheduling suggestions. Your calendar data is processed on our own servers and is not sent to any third-party AI provider. The AI Assistant only accesses your event data to generate recommendations and does not store conversation history beyond your active session.",
+
+  "privacy.s4.title": "4. Data Sharing and Disclosure",
+  "privacy.s4.intro": "We do not sell your personal data. We may share information only in the following circumstances:",
+  "privacy.s4.item1": "<strong>With event participants:</strong> When you invite contacts to events, they receive your name, email, and relevant event details",
+  "privacy.s4.item2": "<strong>Payment processing:</strong> We share necessary information with Stripe to process your subscription payments",
+  "privacy.s4.item3": "<strong>Legal requirements:</strong> We may disclose information if required by law, legal process, or government request",
+  "privacy.s4.item4": "<strong>Protection of rights:</strong> We may disclose information to protect the rights, safety, or property of Kalenex, our users, or the public",
+
+  "privacy.s5.title": "5. Data Security",
+  "privacy.s5.text": "We implement appropriate technical and organizational measures to protect your data. Passwords are hashed and never stored in plain text. Authentication tokens (JWT) are used for secure session management with automatic token rotation. All data is transmitted over encrypted connections (HTTPS). However, no method of transmission or storage is 100% secure, and we cannot guarantee absolute security.",
+
+  "privacy.s6.title": "6. Data Retention",
+  "privacy.s6.text": "We retain your account and event data for as long as your account is active. If you delete your account, we will remove your personal data from our active systems within 30 days. Some information may be retained in backups for a limited period. Subscription-related records may be retained as required for financial and legal compliance.",
+
+  "privacy.s7.title": "7. Your Rights",
+  "privacy.s7.intro": "Depending on your location, you may have the following rights regarding your personal data:",
+  "privacy.s7.item1": "<strong>Access:</strong> Request a copy of the data we hold about you",
+  "privacy.s7.item2": "<strong>Correction:</strong> Request that we correct inaccurate or incomplete data",
+  "privacy.s7.item3": "<strong>Deletion:</strong> Request that we delete your personal data",
+  "privacy.s7.item4": "<strong>Portability:</strong> Request a copy of your data in a structured, machine-readable format",
+  "privacy.s7.item5": "<strong>Objection:</strong> Object to the processing of your data in certain circumstances",
+  "privacy.s7.outro": "To exercise any of these rights, please contact us at the email address provided below.",
+
+  "privacy.s8.title": "8. Cookies and Local Storage",
+  "privacy.s8.text": "Kalenex uses local storage in your browser to save your theme preference (light/dark mode), language preference, and authentication tokens. We do not use third-party tracking cookies. Stripe may set cookies as part of the payment process in accordance with their own cookie policy.",
+
+  "privacy.s9.title": "9. Third-Party Services",
+  "privacy.s9.intro": "The Service integrates with the following third-party services:",
+  "privacy.s9.item1": "<strong>Google OAuth:</strong> For account authentication. Subject to Google's Privacy Policy.",
+  "privacy.s9.item2": "<strong>Stripe:</strong> For payment processing. Subject to Stripe's Privacy Policy.",
+  "privacy.s9.item3": "<strong>Gmail SMTP:</strong> For sending event invitation emails on your behalf.",
+
+  "privacy.s10.title": "10. Children's Privacy",
+  "privacy.s10.text": "Kalenex is not intended for children under the age of 16. We do not knowingly collect personal data from children. If you believe we have collected data from a child, please contact us and we will promptly delete it.",
+
+  "privacy.s11.title": "11. Changes to This Policy",
+  "privacy.s11.text": "We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the updated policy on this page and updating the \"Last updated\" date. Your continued use of the Service after changes are posted constitutes your acceptance of the updated policy.",
+
+  "privacy.s12.title": "12. Contact Us",
+  "privacy.s12.text": "If you have questions about this Privacy Policy or wish to exercise your data rights, please contact us at: privacy@kalenex.com",
+
+  "terms.meta.title": "Terms of Use — Kalenex",
+  "terms.meta.description": "Kalenex terms of use. Read the terms and conditions that govern your use of the Kalenex platform.",
+  "terms.title": "Terms of Use",
+  "terms.lastUpdated": "Effective date: March 2, 2026",
+  "terms.intro": "Welcome to Kalenex. These Terms of Use (\"Terms\") govern your access to and use of the Kalenex platform, including our website, web application, and mobile application (collectively, the \"Service\"). By creating an account or using the Service, you agree to be bound by these Terms. If you do not agree, do not use the Service.",
+
+  "terms.s1.title": "1. Who We Are",
+  "terms.s1.text": "Kalenex is a calendar and event management platform designed for businesses and professionals. We provide smart scheduling tools, contact management, real-time notifications, and AI-powered features to help you organize your work and grow your business.",
+
+  "terms.s2.title": "2. Account Creation and Access",
+  "terms.s2.sub1.title": "2.1 Eligibility",
+  "terms.s2.sub1.text": "You must be at least 16 years old to create an account and use the Service. By registering, you represent that you meet this age requirement.",
+  "terms.s2.sub2.title": "2.2 Account Responsibility",
+  "terms.s2.sub2.text": "You are responsible for providing accurate and complete information when creating your account. You must keep your login credentials confidential and are responsible for all activity that occurs under your account. If you believe your account has been compromised, you must notify us immediately at support@kalenex.com.",
+  "terms.s2.sub3.title": "2.3 Google Sign-In",
+  "terms.s2.sub3.text": "You may sign in using Google OAuth. When you do so, you authorize us to receive your name, email address, and profile picture from Google. Your use of Google's services is subject to Google's own terms and privacy policy.",
+
+  "terms.s3.title": "3. Use of the Service",
+  "terms.s3.sub1.title": "3.1 Permitted Use",
+  "terms.s3.sub1.text": "You may use the Service for lawful personal or business purposes in accordance with these Terms. You are responsible for all content you create, upload, or share through the Service, including events, contacts, and messages.",
+  "terms.s3.sub2.title": "3.2 Prohibited Activities",
+  "terms.s3.sub2.intro": "You agree not to:",
+  "terms.s3.sub2.item1": "Use the Service to violate any applicable law or regulation",
+  "terms.s3.sub2.item2": "Attempt to gain unauthorized access to the Service, other accounts, or our systems",
+  "terms.s3.sub2.item3": "Reverse engineer, decompile, or disassemble any part of the Service",
+  "terms.s3.sub2.item4": "Use automated means (bots, scrapers, etc.) to access the Service without our written permission",
+  "terms.s3.sub2.item5": "Introduce malware, viruses, or any harmful code into the Service",
+  "terms.s3.sub2.item6": "Use the Service to send spam, unsolicited messages, or harass other users",
+  "terms.s3.sub2.item7": "Interfere with or disrupt the integrity or performance of the Service",
+  "terms.s3.sub2.item8": "Resell, sublicense, or commercially exploit the Service without authorization",
+
+  "terms.s4.title": "4. Your Content",
+  "terms.s4.p1": "You retain ownership of all content you submit to the Service, including events, contacts, notes, and any other data (\"Your Content\"). By using the Service, you grant Kalenex a limited, non-exclusive license to store, process, and display Your Content solely for the purpose of providing and improving the Service.",
+  "terms.s4.p2": "You are responsible for ensuring that Your Content does not violate any applicable laws or infringe on the rights of third parties. We reserve the right to remove content that violates these Terms.",
+
+  "terms.s5.title": "5. AI Assistant",
+  "terms.s5.p1": "The AI Assistant feature (available on the Elite plan) provides scheduling suggestions and recommendations based on your calendar data. The AI Assistant uses a locally hosted language model; your data is not sent to third-party AI providers.",
+  "terms.s5.p2": "You acknowledge that AI-generated suggestions may not always be accurate or suitable for your needs. The AI Assistant is provided as a tool to assist you, not to replace your own judgment. Kalenex is not liable for any decisions made based on AI-generated recommendations.",
+
+  "terms.s6.title": "6. Subscriptions, Fees, and Payment",
+  "terms.s6.sub1.title": "6.1 Plans",
+  "terms.s6.sub1.text": "Kalenex offers Free, Pro ($9.99/month), and Elite ($19.99/month) subscription plans. Each plan includes different features and usage limits as described on our pricing page. We reserve the right to modify plans and pricing with 30 days' advance notice.",
+  "terms.s6.sub2.title": "6.2 Payment Processing",
+  "terms.s6.sub2.text": "Paid subscriptions are processed through Stripe. By subscribing to a paid plan, you agree to provide accurate billing information and authorize Stripe to charge your payment method. All fees are listed in U.S. dollars and are inclusive of applicable taxes where required.",
+  "terms.s6.sub3.title": "6.3 Auto-Renewal",
+  "terms.s6.sub3.text": "Paid subscriptions automatically renew at the end of each billing period unless you cancel before the renewal date. You may cancel at any time through your account settings or by contacting support@kalenex.com.",
+  "terms.s6.sub4.title": "6.4 Refunds",
+  "terms.s6.sub4.text": "Payments are generally non-refundable. If you cancel a subscription, you will retain access to paid features until the end of your current billing period. No partial refunds are issued for unused portions of a billing period.",
+
+  "terms.s7.title": "7. Notifications and Communications",
+  "terms.s7.text": "The Service delivers real-time notifications via WebSocket and may send emails on your behalf (event invitations, reminders). By using the Service, you consent to receiving these communications. You may manage your notification preferences in your account settings. We may also send you service-related announcements and administrative messages.",
+
+  "terms.s8.title": "8. Third-Party Services",
+  "terms.s8.text": "The Service integrates with third-party services, including Google (authentication), Stripe (payments), and email services (invitations). Your use of these third-party services is subject to their respective terms and privacy policies. Kalenex is not responsible for the availability, accuracy, or content of any third-party services.",
+
+  "terms.s9.title": "9. Intellectual Property",
+  "terms.s9.text": "The Service, including its design, code, features, branding, and documentation, is owned by Kalenex and is protected by intellectual property laws. These Terms grant you a limited, non-exclusive, non-transferable, revocable license to use the Service for its intended purpose. You may not copy, modify, distribute, or create derivative works based on the Service without our written consent.",
+
+  "terms.s10.title": "10. Disclaimer of Warranties",
+  "terms.s10.text": "The Service is provided \"AS IS\" and \"AS AVAILABLE\" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy, availability, reliability, or non-infringement. We do not guarantee that the Service will be uninterrupted, error-free, or secure at all times.",
+
+  "terms.s11.title": "11. Limitation of Liability",
+  "terms.s11.text": "To the maximum extent permitted by law, Kalenex and its affiliates, officers, employees, and partners shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of data, revenue, or business opportunities, arising from your use of or inability to use the Service. Our total liability for any claim arising from these Terms shall not exceed the amount you paid to Kalenex in the six (6) months preceding the claim, or $100 USD, whichever is greater.",
+
+  "terms.s12.title": "12. Indemnification",
+  "terms.s12.text": "You agree to indemnify, defend, and hold harmless Kalenex and its affiliates from any claims, losses, damages, liabilities, and expenses (including legal fees) arising out of your use of the Service, your violation of these Terms, your content, or your violation of any applicable law or the rights of any third party.",
+
+  "terms.s13.title": "13. Termination",
+  "terms.s13.p1": "You may stop using the Service and close your account at any time by contacting support@kalenex.com. We may suspend or terminate your account if you violate these Terms, engage in fraudulent or illegal activity, or if we are required to do so by law.",
+  "terms.s13.p2": "Upon termination, your right to use the Service ceases immediately. We may retain your data for a limited period as described in our Privacy Policy. Sections 4, 9, 10, 11, 12, and 14 survive termination.",
+
+  "terms.s14.title": "14. Changes to These Terms",
+  "terms.s14.text": "We may update these Terms from time to time. We will notify you of material changes by posting the updated Terms on this page and updating the effective date. Your continued use of the Service after the updated Terms are posted constitutes your acceptance of the changes. If you do not agree with the updated Terms, you must stop using the Service.",
+
+  "terms.s15.title": "15. General Provisions",
+  "terms.s15.sub1.title": "15.1 Entire Agreement",
+  "terms.s15.sub1.text": "These Terms, together with our Privacy Policy, constitute the entire agreement between you and Kalenex regarding the Service and supersede any prior agreements.",
+  "terms.s15.sub2.title": "15.2 Severability",
+  "terms.s15.sub2.text": "If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.",
+  "terms.s15.sub3.title": "15.3 No Waiver",
+  "terms.s15.sub3.text": "Our failure to enforce any right or provision of these Terms shall not constitute a waiver of that right or provision.",
+  "terms.s15.sub4.title": "15.4 Assignment",
+  "terms.s15.sub4.text": "You may not assign or transfer your rights under these Terms without our prior written consent. Kalenex may assign its rights and obligations freely.",
+
+  "terms.s16.title": "16. Contact Us",
+  "terms.s16.text": "If you have questions about these Terms, please contact us at: support@kalenex.com"
 }

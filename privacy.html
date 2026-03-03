@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="privacy.meta.title">Privacy Policy — Kalenex</title>
+  <meta name="description" data-i18n-attr="content:privacy.meta.description" content="Kalenex privacy policy. Learn how we collect, use, and protect your personal data.">
+  <meta name="theme-color" content="#92D050">
+  <link rel="icon" type="image/svg+xml" href="images/kalenex-logo.svg">
+  <link rel="alternate" hreflang="en" href="https://www.kalenex.com/privacy.html">
+  <link rel="alternate" hreflang="es" href="https://www.kalenex.com/privacy.html?lang=es">
+  <link rel="alternate" hreflang="x-default" href="https://www.kalenex.com/privacy.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    // Prevent flash of wrong theme
+    (function(){var t=localStorage.getItem('kalenex-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t)})();
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="/" class="header__logo">
+        <img src="images/kalenex-logo.svg" alt="Kalenex logo" width="36" height="36">
+        <span>Kalenex</span>
+      </a>
+      <nav class="header__nav" id="nav">
+        <a href="/#features" class="header__link" data-i18n="nav.features">Features</a>
+        <a href="/#pricing" class="header__link" data-i18n="nav.pricing">Pricing</a>
+      </nav>
+      <div class="header__actions">
+        <button class="toolbar-btn theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="theme-toggle__moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="theme-toggle__sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="lang-switcher__btn" id="langBtn" aria-label="Change language">
+            <svg class="lang-switcher__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span id="langCurrent">EN</span>
+          </button>
+          <ul class="lang-switcher__menu" id="langMenu"></ul>
+        </div>
+        <a href="/app/login" class="btn btn--ghost" data-app-link="login" data-i18n="nav.login">Log In</a>
+        <a href="/app/register" class="btn btn--primary" data-app-link="register" data-i18n="nav.getStarted">Get Started</a>
+      </div>
+      <button class="header__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Privacy Policy -->
+  <section class="legal">
+    <div class="container legal__inner">
+      <h1 class="legal__title" data-i18n="privacy.title">Privacy Policy</h1>
+      <p class="legal__updated" data-i18n="privacy.lastUpdated">Last updated: March 2, 2026</p>
+
+      <div class="legal__content">
+        <p data-i18n="privacy.intro">Kalenex ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our calendar and event management platform, including our website, web application, and mobile application (collectively, the "Service").</p>
+
+        <h2 data-i18n="privacy.s1.title">1. Information We Collect</h2>
+
+        <h3 data-i18n="privacy.s1.sub1.title">1.1 Account Information</h3>
+        <p data-i18n="privacy.s1.sub1.text">When you create an account, we collect your name, email address, and password. If you sign in with Google OAuth, we receive your name, email address, and profile picture from Google. We do not store your Google password.</p>
+
+        <h3 data-i18n="privacy.s1.sub2.title">1.2 Calendar and Event Data</h3>
+        <p data-i18n="privacy.s1.sub2.text">We store the events you create, including titles, descriptions, dates, times, locations, recurrence rules, and any participants you add. This data is necessary to provide the core scheduling functionality of the Service.</p>
+
+        <h3 data-i18n="privacy.s1.sub3.title">1.3 Contact Information</h3>
+        <p data-i18n="privacy.s1.sub3.text">When you add contacts to Kalenex, we store their names, email addresses, phone numbers, and any notes or categories you assign. This data is used to help you manage participants and send event invitations.</p>
+
+        <h3 data-i18n="privacy.s1.sub4.title">1.4 Payment Information</h3>
+        <p data-i18n="privacy.s1.sub4.text">Subscription payments are processed by Stripe. We do not store your credit card number or full payment details on our servers. Stripe may collect and store payment information in accordance with their own privacy policy. We only store your subscription plan, status, and Stripe customer ID.</p>
+
+        <h3 data-i18n="privacy.s1.sub5.title">1.5 Usage Data</h3>
+        <p data-i18n="privacy.s1.sub5.text">We may collect information about how you interact with the Service, such as pages visited, features used, and the dates and times of your activity. This helps us improve the platform.</p>
+
+        <h2 data-i18n="privacy.s2.title">2. How We Use Your Information</h2>
+        <p data-i18n="privacy.s2.intro">We use the information we collect to:</p>
+        <ul>
+          <li data-i18n="privacy.s2.item1">Provide, operate, and maintain the Service, including event scheduling, contact management, and real-time notifications</li>
+          <li data-i18n="privacy.s2.item2">Authenticate your identity and manage your account</li>
+          <li data-i18n="privacy.s2.item3">Process subscription payments and manage your billing through Stripe</li>
+          <li data-i18n="privacy.s2.item4">Send event invitations and notifications by email on your behalf</li>
+          <li data-i18n="privacy.s2.item5">Deliver real-time notifications about event updates, participant changes, and schedule modifications</li>
+          <li data-i18n="privacy.s2.item6">Provide AI-powered scheduling suggestions (Elite plan only), using your calendar data processed locally</li>
+          <li data-i18n="privacy.s2.item7">Improve and develop new features for the Service</li>
+          <li data-i18n="privacy.s2.item8">Respond to your inquiries and provide customer support</li>
+        </ul>
+
+        <h2 data-i18n="privacy.s3.title">3. AI Assistant and Data Processing</h2>
+        <p data-i18n="privacy.s3.text">Our AI Assistant feature (available on the Elite plan) uses a locally hosted language model to provide scheduling suggestions. Your calendar data is processed on our own servers and is not sent to any third-party AI provider. The AI Assistant only accesses your event data to generate recommendations and does not store conversation history beyond your active session.</p>
+
+        <h2 data-i18n="privacy.s4.title">4. Data Sharing and Disclosure</h2>
+        <p data-i18n="privacy.s4.intro">We do not sell your personal data. We may share information only in the following circumstances:</p>
+        <ul>
+          <li data-i18n-html="privacy.s4.item1"><strong>With event participants:</strong> When you invite contacts to events, they receive your name, email, and relevant event details</li>
+          <li data-i18n-html="privacy.s4.item2"><strong>Payment processing:</strong> We share necessary information with Stripe to process your subscription payments</li>
+          <li data-i18n-html="privacy.s4.item3"><strong>Legal requirements:</strong> We may disclose information if required by law, legal process, or government request</li>
+          <li data-i18n-html="privacy.s4.item4"><strong>Protection of rights:</strong> We may disclose information to protect the rights, safety, or property of Kalenex, our users, or the public</li>
+        </ul>
+
+        <h2 data-i18n="privacy.s5.title">5. Data Security</h2>
+        <p data-i18n="privacy.s5.text">We implement appropriate technical and organizational measures to protect your data. Passwords are hashed and never stored in plain text. Authentication tokens (JWT) are used for secure session management with automatic token rotation. All data is transmitted over encrypted connections (HTTPS). However, no method of transmission or storage is 100% secure, and we cannot guarantee absolute security.</p>
+
+        <h2 data-i18n="privacy.s6.title">6. Data Retention</h2>
+        <p data-i18n="privacy.s6.text">We retain your account and event data for as long as your account is active. If you delete your account, we will remove your personal data from our active systems within 30 days. Some information may be retained in backups for a limited period. Subscription-related records may be retained as required for financial and legal compliance.</p>
+
+        <h2 data-i18n="privacy.s7.title">7. Your Rights</h2>
+        <p data-i18n="privacy.s7.intro">Depending on your location, you may have the following rights regarding your personal data:</p>
+        <ul>
+          <li data-i18n-html="privacy.s7.item1"><strong>Access:</strong> Request a copy of the data we hold about you</li>
+          <li data-i18n-html="privacy.s7.item2"><strong>Correction:</strong> Request that we correct inaccurate or incomplete data</li>
+          <li data-i18n-html="privacy.s7.item3"><strong>Deletion:</strong> Request that we delete your personal data</li>
+          <li data-i18n-html="privacy.s7.item4"><strong>Portability:</strong> Request a copy of your data in a structured, machine-readable format</li>
+          <li data-i18n-html="privacy.s7.item5"><strong>Objection:</strong> Object to the processing of your data in certain circumstances</li>
+        </ul>
+        <p data-i18n="privacy.s7.outro">To exercise any of these rights, please contact us at the email address provided below.</p>
+
+        <h2 data-i18n="privacy.s8.title">8. Cookies and Local Storage</h2>
+        <p data-i18n="privacy.s8.text">Kalenex uses local storage in your browser to save your theme preference (light/dark mode), language preference, and authentication tokens. We do not use third-party tracking cookies. Stripe may set cookies as part of the payment process in accordance with their own cookie policy.</p>
+
+        <h2 data-i18n="privacy.s9.title">9. Third-Party Services</h2>
+        <p data-i18n="privacy.s9.intro">The Service integrates with the following third-party services:</p>
+        <ul>
+          <li data-i18n-html="privacy.s9.item1"><strong>Google OAuth:</strong> For account authentication. Subject to Google's Privacy Policy.</li>
+          <li data-i18n-html="privacy.s9.item2"><strong>Stripe:</strong> For payment processing. Subject to Stripe's Privacy Policy.</li>
+          <li data-i18n-html="privacy.s9.item3"><strong>Gmail SMTP:</strong> For sending event invitation emails on your behalf.</li>
+        </ul>
+
+        <h2 data-i18n="privacy.s10.title">10. Children's Privacy</h2>
+        <p data-i18n="privacy.s10.text">Kalenex is not intended for children under the age of 16. We do not knowingly collect personal data from children. If you believe we have collected data from a child, please contact us and we will promptly delete it.</p>
+
+        <h2 data-i18n="privacy.s11.title">11. Changes to This Policy</h2>
+        <p data-i18n="privacy.s11.text">We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the updated policy on this page and updating the "Last updated" date. Your continued use of the Service after changes are posted constitutes your acceptance of the updated policy.</p>
+
+        <h2 data-i18n="privacy.s12.title">12. Contact Us</h2>
+        <p data-i18n="privacy.s12.text">If you have questions about this Privacy Policy or wish to exercise your data rights, please contact us at: privacy@kalenex.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p data-i18n="footer.copyright">&copy; 2026 Kalenex. All rights reserved.</p>
+      <nav class="footer__links">
+        <a href="/privacy.html" class="footer__link" data-i18n="footer.privacy">Privacy Policy</a>
+        <a href="/terms.html" class="footer__link" data-i18n="footer.terms">Terms of Use</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

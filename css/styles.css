@@ -77,6 +77,9 @@ img { max-width: 100%; display: block; }
   background: var(--color-primary);
   color: #fff;
 }
+[data-theme="dark"] .btn--primary {
+  color: #1E1F22;
+}
 .btn--primary:hover { background: var(--color-primary-dark); }
 .btn--outline {
   border-color: var(--color-primary);
@@ -276,6 +279,9 @@ img { max-width: 100%; display: block; }
   font-weight: 600;
   padding: 4px 16px;
   border-radius: 20px;
+}
+[data-theme="dark"] .pricing-card__badge {
+  color: #1E1F22;
 }
 .pricing-card__header { margin-bottom: 28px; }
 .pricing-card__name {

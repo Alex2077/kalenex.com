@@ -1,12 +1,14 @@
 {
-    "name": "kalenex_app",
-    "short_name": "kalenex_app",
+    "name": "Kalenex",
+    "short_name": "Kalenex",
+    "description": "Calendar and event management platform for any business that runs on appointments.",
     "start_url": ".",
+    "scope": "/app/",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Kalenex project",
+    "background_color": "#ffffff",
+    "theme_color": "#92D050",
     "orientation": "portrait-primary",
+    "lang": "en",
     "prefer_related_applications": false,
     "icons": [
         {

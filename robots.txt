@@ -1,5 +1,19 @@
 User-agent: *
 Allow: /
-Disallow: /app/
+Allow: /p/
+Allow: /book/
+Disallow: /dashboard
+Disallow: /events
+Disallow: /contacts
+Disallow: /profile
+Disallow: /settings
+Disallow: /admin
+Disallow: /notifications
+Disallow: /add-event
+Disallow: /add-contact
+Disallow: /subscription
+Disallow: /availability
+Disallow: /booking-dashboard
+Disallow: /flutter.html
 
 Sitemap: https://www.kalenex.com/sitemap.xml

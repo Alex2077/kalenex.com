@@ -4,16 +4,26 @@
   <meta charset="UTF-8">
   <title>Redirecting...</title>
   <script>
-    // SPA redirect for GitHub Pages
-    // When GitHub Pages returns 404, check if it's a Flutter app route
-    // and redirect to /app/ preserving the path in sessionStorage
+    // SPA redirect for GitHub Pages (path-based routing, no hash)
+    // Flutter app routes are served from /flutter.html; all other unknown
+    // paths fall back to the landing page at /.
     var path = window.location.pathname;
-    if (path.startsWith('/app/')) {
-      sessionStorage.setItem('spa-redirect', path + window.location.search);
-      window.location.replace('/app/');
-    } else {
-      // Not an app route — redirect to landing page
+
+    // Static asset directories — broken links go to landing
+    var staticPrefixes = ['/css/', '/js/', '/i18n/', '/images/', '/icons/', '/canvaskit/'];
+    // Known static pages — never route to Flutter
+    var staticPages = ['/terms', '/terms.html', '/privacy', '/privacy.html',
+                       '/sitemap.xml', '/robots.txt', '/flutter.html'];
+
+    var isStatic = staticPrefixes.some(function(p) { return path.startsWith(p); }) ||
+                   staticPages.indexOf(path) !== -1;
+
+    if (isStatic) {
       window.location.replace('/');
+    } else {
+      // Flutter app route — preserve full path + query and boot Flutter
+      sessionStorage.setItem('spa-redirect', path + window.location.search);
+      window.location.replace('/flutter.html');
     }
   </script>
 </head>
